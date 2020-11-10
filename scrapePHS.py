@@ -17,7 +17,7 @@ retry_strategy = Retry(
 adapter = HTTPAdapter(max_retries=retry_strategy)
 
 
-start_date = dt.date(2020, 10, 29)
+start_date = dt.date(2020, 10, 31)
 end_date = dt.date(2020, 11, 6)
 end_date_fix = end_date
 df = pd.DataFrame(columns=["council", "IZ", "dateStart", "dateEnd", "cases", "pop"])
